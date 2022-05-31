@@ -1,12 +1,12 @@
 * {
     font-family: Arial;
-  }
-  
-  img {
+}
+
+img {
     width: 10em;
-  }
-  
-  button {
+}
+
+button {
     font-size: 1em;
     border: none;
     border-radius: 1em;
@@ -14,52 +14,82 @@
     background-color: #198b7f;
     padding: 0.5em;
     color: white;
-  }
-  
-  .product {
+}
+
+.product {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-  }
-  
-  .product-images {
+    padding: 0em 10em;
+}
+
+.product-images {
     /*background-color: #bbbbbb;*/
     width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .product-info {
+}
+
+.product-info {
     /*background-color: #71f5ca;*/
     width: 50%;
-  }
-  
-  .color-box {
+}
+
+.color-box {
     background-color: black;
-    border-radius: 1em;
+    color: white;
     height: 20px;
     margin-top: 1em;
-  }
-  
-  .sinStockBtn {
+    padding: 0.5em;
+    width: 3em;
+}
+
+.sinStockBtn {
     background-color: red;
-  }
-  
-  .noStockLine {
+}
+
+.noStockLine {
     text-decoration: line-through;
-  }
-  
-  form {
+}
+
+form {
     border: solid black 1px;
     padding: 1em;
     border-radius: 1em;
     width: 15em;
-  }
-  
-  form p {
+}
+
+form p {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-  }
+}
+
+.reviews {
+    margin: 5em 0em 0em 0em;
+}
+
+.tab {
+    color: white;
+    background-color: black;
+    border-radius: 1em;
+    padding: 0.5em;
+    margin: 0.5em;
+    cursor: pointer;
+}
+
+.cart {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.carrito {
+    background-color: black;
+    color: white;
+    border-radius: 1em;
+    width: 4em;
+    padding: 1em;
+}
